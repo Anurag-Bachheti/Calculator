@@ -5,15 +5,18 @@ body{
 button{
     width: 50px;
     height: 50px;
-    font-size: medium;
+    font-size: large;
     background-color: rgba(169, 169, 169, 0.471);
     cursor: pointer;
     margin: 2px;
     border-radius: 10px;
+    color: aliceblue;
+    font-style: italic;
 }
 
 button:hover{
     background-color: rgba(228, 202, 202, 0.675);
+    color: rgb(0, 0, 0);
 }
 
 .screen{
@@ -22,7 +25,7 @@ button:hover{
     font-size: 35px;
     text-align: right;
     margin-bottom: 5px;
-
+   
 }
 
 .orange{
@@ -36,6 +39,19 @@ button:hover{
 
 #screen{
     border-radius: 10px;
-    background-color: rgb(145, 152, 157);
-    color: rgb(19, 18, 18);
+    background-color: rgb(210, 219, 225);
+    color: rgb(0, 0, 0);
+}
+
+.special{
+    background-color: #583214a0;
+}
+
+.calculator{
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 20px;
+    width: 230px;
+    margin: 0 auto;
+    background-color: #00000000;
 }

@@ -6,16 +6,20 @@
     <title>Basic Calculator</title>
     <link rel="stylesheet" href="calculator.css">
 </head>
-<body style="background-color: rgb(15, 15, 15); color: aliceblue;">
-    <h1> CALCULATOR </h1>
+<body style="background-color: rgb(21, 19, 19); color: aliceblue;">
+   
+
+    <h1> <center>CALCULATOR<center> </h1>
     <div class="calculator">
+
+   
         <input type="text" id="screen" class="screen" disabled placeholder="0" />
   
         <br/>
         <button onclick="press(7)">7</button>
         <button onclick="press(8)">8</button>
         <button onclick="press(9)">9</button>
-        <button onclick="clearScreen()" class="orange">C</button>
+        <button onclick="clearScreen()" class="special">C</button>
      
         <br/>
         <button onclick="press(4)">4</button>
@@ -38,7 +42,7 @@
         <br>
         <button onclick="press('(')"> )</button>
         <button onclick="press(')')"> (</button>
-        <button onclick="calculate()">=</button>
+        <button onclick="calculate()" class="special">=</button>
         <button onclick="press('/')" class="orange" >/</button>
     </div>
 
